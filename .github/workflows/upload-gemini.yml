@@ -1,4 +1,4 @@
-# .github/workflows/update-docs.yml
+# .github/workflows/upload-gemini.yml
 
 name: upload documents to gemini
 
@@ -44,6 +44,9 @@ jobs:
       # py_wget.py を実行して、HTMLファイルをダウンロード
       - name: upload documents to gemini
         run: python setup_rag_store.py
+        
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       # ステップ6: 変更があった場合にコミット＆プッシュする
       - name: Commit and push if there are changes
