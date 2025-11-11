@@ -556,7 +556,7 @@ September 2025
 cognition_2
 Knowledge cutoff
 January 2025
-Previous Gemini Models
+Previous Gemini models
 OUR SECOND GENERATION WORKHORSE MODEL
 Gemini 2.0 Flash
 Our second generation workhorse model, with a 1 million token context window.

@@ -1,6 +1,14 @@
 Source Path: gemini_api_docs_html/gemini-api/docs/changelog/index.html
 
 This page documents updates to the Gemini API.
+November 10, 2025
+The following model is deprecated:
+imagen-3.0-generate-002
+Use
+Imagen 4
+instead. Refer to the
+Gemini deprecations table
+for more details.
 November 6, 2025
 Launched the File Search API to public preview, enabling developers to
 ground responses in their own data. Read the new

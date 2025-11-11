@@ -2797,7 +2797,7 @@ log
 content
 );
 }
-Multi-turn conversations (Chat)
+Multi-turn conversations (chat)
 Our SDKs provide functionality to collect multiple rounds of prompts and
 responses into a chat, giving you an easy way to keep track of the conversation
 history.

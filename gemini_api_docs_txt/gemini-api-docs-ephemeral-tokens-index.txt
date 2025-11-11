@@ -15,14 +15,7 @@ key security.
 Note:
 At this time, ephemeral tokens are only compatible with
 Live API
-,
-and are only supported for
-gemini-live-2.5-flash-preview
-and
-gemini-2.0-flash-live-001
-. Those models will be
-deprecated
-on December 9th.
+.
 How ephemeral tokens work
 Here's how ephemeral tokens work at a high level:
 Your client (e.g. web app) authenticates with your backend.
@@ -267,7 +260,7 @@ config
 {
 'model'
 :
-'gemini-2.0-flash-live-001'
+'gemini-2.5-flash-native-audio-preview-09-2025'
 ,
 'config'
 :
@@ -280,7 +273,7 @@ config
 ,
 'response_modalities'
 :[
-'TEXT'
+'AUDIO'
 ]
 }
 },
@@ -354,7 +347,7 @@ liveConnectConstraints
 {
 model
 :
-'gemini-2.0-flash-live-001'
+'gemini-2.5-flash-native-audio-preview-09-2025'
 ,
 config
 :
@@ -369,7 +362,7 @@ temperature
 responseModalities
 :
 [
-'TEXT'
+'AUDIO'
 ]
 }
 },
@@ -396,12 +389,6 @@ The use of ephemeral tokens only adds value when deploying applications
 that follow
 client-to-server implementation
 approach.
-Note:
-Ephermeral tokens are only supported for
-gemini-live-2.5-flash-preview
-and
-gemini-2.0-flash-live-001
-at the moment.
 JavaScript
 import
 {
@@ -428,7 +415,7 @@ name
 const
 model
 =
-'gemini-live-2.5-flash-preview'
+'gemini-2.5-flash-native-audio-preview-09-2025'
 ;
 const
 config

@@ -19,7 +19,7 @@ For production applications that require higher volumes and advanced features.
 check_circle
 Higher rate limits for production deployments
 check_circle
-Access to Context Caching
+Access to Context caching
 check_circle
 Batch API (50% cost reduction)
 check_circle
@@ -43,7 +43,7 @@ Provisioned throughput
 check_circle
 Volume-based discounts (based on usage)
 check_circle
-ML Ops, Model garden and more
+ML ops, model garden and more
 Contact Sales
 Gemini 2.5 Pro
 gemini-2.5-pro

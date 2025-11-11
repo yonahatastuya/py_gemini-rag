@@ -11,7 +11,7 @@ pre-processing or running evaluations where an immediate response is not
 required.
 Creating a batch job
 You have two ways to submit your requests in Batch API:
-Inline Requests
+Inline requests
 :
 A list of
 GenerateContentRequest
@@ -22,7 +22,7 @@ output
 returned from the model is a list of
 inlineResponse
 objects.
-Input File
+Input file
 :
 A
 JSON Lines (JSONL)

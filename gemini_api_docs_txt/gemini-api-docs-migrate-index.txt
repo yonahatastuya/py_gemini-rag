@@ -5637,7 +5637,7 @@ result
 .
 embeddings
 );
-Tune a Model
+Tune a model
 Create and use a tuned model.
 The new SDK simplifies tuning with
 client.tunings.tune
